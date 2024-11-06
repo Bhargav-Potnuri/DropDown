@@ -4,7 +4,7 @@ A simple, interactive Dropdown built using *Angular*.
 
 ## Technologies Used
 
-- *Angular* with *Standalone Components* for modular structure
+- *Angular* for modular structure
 - *SCSS* for simple styling
 - *TypeScript* for type safety
 
