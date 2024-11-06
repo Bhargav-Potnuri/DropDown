@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<app-dropdown
+  [selectedItem]="selectedValue"
+  (selectionChange)="selectionChange($event)"
+></app-dropdown>
+<router-outlet></router-outlet>

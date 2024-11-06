@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "kiran",
+      "email": "kiran@yahoo.com",
+      "password": "Kiran123"
+    },
+    {
+      "id": "a53d",
+      "name": "bhargav",
+      "email": "123@mail.com",
+      "password": "Cartoon"
+    },
+    {
+      "id": "d715",
+      "name": "12345",
+      "email": "bhav@gmail.com",
+      "password": "8678980"
+    },
+    {
+      "id": "0d9c",
+      "name": "bhargav",
+      "email": "bhargav@gmail.com",
+      "password": "bhargav"
+    },
+    {
+      "id": "716d",
+      "name": "gouarv",
+      "email": "gajji@gmail.com",
+      "password": "kanishk"
+    },
+    {
+      "id": "c057",
+      "name": "bhargav",
+      "email": "1234@gmail.com",
+      "password": "234556"
+    },
+    {
+      "id": "223f",
+      "name": "bhav",
+      "email": "bhavani@mail.com",
+      "password": "bhargav"
+    },
+    {
+      "id": "ed38",
+      "name": "bhargav",
+      "email": "gavasakar@gmail.com",
+      "password": "lady123"
+    },
+    {
+      "id": "0fdf",
+      "name": "12345",
+      "email": "bhavani@gmail.com",
+      "password": "kalki289$"
+    }
+  ]
+}

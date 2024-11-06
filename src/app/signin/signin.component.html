@@ -1,0 +1,34 @@
+<div class="signup-container">
+  <h2 class="signup-heading">Sign Up</h2>
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="signup-form">
+    <div class="form-group" [ngClass]="{ invalid: isInvalid('name') }">
+      <label>Name:</label>
+      <input formControlName="name" type="text" placeholder="Enter name" />
+      <div *ngIf="isInvalid('name')" class="error-message">
+        Name is required
+      </div>
+    </div>
+
+    <div class="form-group" [ngClass]="{ invalid: isInvalid('email') }">
+      <label>Email:</label>
+      <input formControlName="email" type="email" placeholder="Enter email" />
+      <div *ngIf="isInvalid('email')" class="error-message">
+        Please enter a valid email
+      </div>
+    </div>
+
+    <div class="form-group" [ngClass]="{ invalid: isInvalid('password') }">
+      <label>Password:</label>
+      <input
+        formControlName="password"
+        type="password"
+        placeholder="Enter password"
+      />
+      <div *ngIf="isInvalid('password')" class="error-message">
+        Password is required and must be at least 6 characters long
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-outline-secondary">Sign Up</button>
+  </form>
+</div>

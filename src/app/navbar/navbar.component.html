@@ -1,0 +1,31 @@
+<div class="header-container">
+  <div class="site-title">
+    <h1>RefreshMart</h1>
+  </div>
+  <div class="search-bar">
+    <div class="search-container">
+      <input
+        [(ngModel)]="searchQuery"
+        type="text"
+        placeholder="Search products..."
+      />
+      <button (click)="onSearch()">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  </div>
+  <div class="header-icons">
+    <a href="/login">
+      <i class="fas fa-user"></i>
+      <span>Login</span>
+    </a>
+    <a href="/cart">
+      <i class="fas fa-shopping-cart"></i>
+      <span>Cart</span>
+    </a>
+    <a routerLink="/signup">
+      <i class="fa fa-sign-in" aria-hidden="true"></i>
+      <span>signin</span>
+    </a>
+  </div>
+</div>

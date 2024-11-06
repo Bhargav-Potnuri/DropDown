@@ -1,0 +1,20 @@
+<div class="dropdown" (click)="toggle()">
+  <button class="dropdown-toogle">
+    {{ selectedItem?.name || placeholder }}
+  </button>
+  <div *ngIf="isOpen" class="dropdown-menu">
+    <input
+      type="text"
+      [(ngModel)]="searchQuery"
+      (input)="filterOptions($event)"
+      class="dropdown-search"
+      placeholder="Search..."
+    />
+    <ul class="dropdown-list">
+      <li *ngFor="let item of filteredItems" (click)="selectItem(item)">
+        {{ item.name }}
+      </li>
+      <li *ngIf="filteredItems.length === 0" class="no-results">No results</li>
+    </ul>
+  </div>
+</div>
